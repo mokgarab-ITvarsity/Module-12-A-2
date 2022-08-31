@@ -1,26 +1,19 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Contact Book Plus</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/custom.css">
+        <tittle>Contact Book</tittle>
     </head>
     <body onload="fetchContacts()">
-        
-        <div class="table" id="table">Contacts Loading...</div>
-        <button class="refresh" id="refresh" type="button">Refresh</button>
-        <button class="addContact" id="addContact" type="button">Add Contact</button>
 
-    
+        <div id="table">Contacts Loading...</div>
+        <button id="refresh" type="button">Refresh</button>
+        <button id="addContact" type="button">Add Contact</button>
+
 
         <script src="config.js"></script>
         <script>
-    
             document.getElementById("refresh").addEventListener('click', fetchContacts);
             document.getElementById("addContact").addEventListener('click', addContact);
-
-    
 
             function fetchContacts(){
                 fetch(roothPath + "controller/get-contacts/")
@@ -56,7 +49,6 @@
             }
 
         </script>
-       <script src="js/jquery-3.6.0.min.js"></script>
-       <script src="js/bootstrap.bundle.min.js"></script>
+
     </body>
 </html>

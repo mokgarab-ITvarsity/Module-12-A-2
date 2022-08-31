@@ -1,10 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Contact Book Plus</title>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/custom.css">
+        <title></title>
     </head>
     <body onload="getContact()">
         <div id="avatar-image"></div>
@@ -13,9 +10,9 @@
             <input type="text" name="firstname" id="firstname" readonly><br/>
             <label for="laststname">Last name</label>
             <input type="text" name="lastname" id="lastname" readonly><br/>
-            <label for="mobile">Mobile No.</label>
+            <label for="mobile">Mobile</label>
             <input type="text" name="mobile" id="mobile" readonly><br/>
-            <label for="email">Email add</label>
+            <label for="email">Email</label>
             <input type="text" name="email" id="email" readonly><br/>
             <label for="avatar" id="avatarLabel" hidden>Change profile image</label><br/>
             <input type="file" name="avatar" id="avatar" hidden><br/>
@@ -24,11 +21,9 @@
 
         </form>
         <br/><br/>
-        <div class="button">
         <button id="homeLink" type="button">Home</button>
         <button id="editContact" type="button">Edit</button>
         <button id="deleteContact" type="button">Delete</button>
-    </div>
 
         <script src="config.js"></script>
         <script>
@@ -125,7 +120,5 @@
                 }
             }
         </script>
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
