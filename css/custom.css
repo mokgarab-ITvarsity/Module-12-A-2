@@ -1,6 +1,6 @@
 
 body{
-  background-color: silver;
+  background-color: rgb(176, 80, 152);
   align-content: center;
 }
 
@@ -18,10 +18,10 @@ body{
       text-transform: uppercase;
       font-weight: 400;
       font-size: 16px;
-      color: rgb(237, 46, 126);
+      color: rgb(131, 23, 130);
   }
   
-   /*====================== CONTENT =======================*/
+   /*===== CONTENT =====*/
   
    #content{
        float: left;
@@ -47,23 +47,23 @@ input{
   width: 60%;
   height: 25px;
   margin : 12px 0;
-  border : 1px solid #929292;
+  border : 1px solid #a0712a;
 }
 
 textarea{
   width: 60%;
   height :25px;
   margin : 12px 0;
-  border : 1px solid #929292;
+  border : 1px solid #a0712a;
 }
 
 .button{
   display : block;
-  background-color: rgb(237, 46, 126);
+  background-color: rgb(126, 12, 75);
   text-decoration : none;
   text-align  : center;
   color       : white;
-  font-size   : 16px;
+  font-size   : 20px;
   font-weight : 600;
   margin : 12px 0;
   padding : 8px 0;
@@ -71,7 +71,7 @@ textarea{
 }
 .refresh{
   border-radius: 40%;
-  background-color: white;
+  background-color: rgb(240, 228, 228);
   border: 0;
   width: 5rem;
   height: 5rem;
@@ -81,7 +81,7 @@ textarea{
 }
 .addContact{
   border-radius: 40%;
-  background-color: white;
+  background-color: rgb(240, 228, 228);
   border: 0;
   width: 5rem;
   height: 5rem;
@@ -93,7 +93,7 @@ textarea{
   
   text-decoration : none;
   text-align  : center;
-  color       : white;
+  color       : rgb(240, 228, 228);
   font-size   : 16px;
   font-weight : 600;
   margin : 12px 0;
